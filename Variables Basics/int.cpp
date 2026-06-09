@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int a;     //decleration of variable a
+    a=5;       //initialization of variable a
+    cout <<a<<endl;
+
+
+    //this can also be done in one line like :-
+    int b=10;  //decleration and initialization of variable b
+    cout <<b<<endl;
+
+
+    //this can aso be done for 2 variable
+    int c=15, d=20;  //decleration and initialization of variable c and d
+    cout <<c<<" "<<d<<endl;
+
+
+    //can also take input from user
+    int e;  //decleration of variable e
+    cout <<"Enter a number: ";
+    cin >>e;  //initialization of variable e
+    cout <<"You entered: "<<e<<endl;
+    return 0;
+}
