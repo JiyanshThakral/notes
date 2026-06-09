@@ -9,8 +9,9 @@ int main() {
   int time;
   cout << "Enter the time (0-23): ";
   cin >> time;
+  cout << endl;
   if (time < 18) {
-    cout << "Good day.";
+    cout << "Good day." <<endl << endl;
   } 
   
   else {
