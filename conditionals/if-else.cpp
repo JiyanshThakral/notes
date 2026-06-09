@@ -14,7 +14,7 @@ int main() {
   } 
   
   else {
-    cout << "Good evening.";
+    cout << "Good evening." << endl << endl;
   }
 
 
@@ -26,7 +26,7 @@ int main() {
     if (num % 2 == 0) {
       cout << "The number is even.";
     } else {
-      cout << "The number is odd.";
+      cout << "The number is odd." ;
     }
   return 0;
 }
