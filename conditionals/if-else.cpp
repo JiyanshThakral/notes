@@ -10,13 +10,12 @@ int main() {
   cout << "Enter the time (0-23): ";
   cin >> time;
   cout << endl;
-  if (time < 18) 
+  if (time < 18) {
     cout << "Good day." <<endl << endl;
-  
-  
-  else 
+}
+  else {
     cout << "Good evening." << endl << endl;
-  
+  }
 
 
   //example 2: finding if a number is odd or even
