@@ -24,9 +24,23 @@ int main() {
     cout << "Enter an integer: ";
     cin >> num;
     if (num % 2 == 0) {
-      cout << "The number is even.";
+      cout << "The number is even.\n";
     } else {
-      cout << "The number is odd." ;
+      cout << "The number is odd.\n" ;
     }
+
+//for multiple conditions, simple 'and' can be used
+//example 3: finding if a number is 3 digit or not
+
+int y;
+cout << "Enter an integer: ";
+cin >> y;
+if (y>100 and y<1000) {
+  cout << "The number is a 3 digit number.";
+} 
+
+else {
+  cout << "The number is not a 3 digit number.";
+}
   return 0;
 }
