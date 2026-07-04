@@ -11,7 +11,7 @@ int main() {
 
     cout << endl;
     cout << endl;
-    cout << "this will get printed after two empty lines";
+    cout << "this will get printed after one empty line";
     // use cout without "" to perform calculations like cout << 2+3; will print 5 but cout 
     // << 2+3; will print 2+3 as it is.
     cout << endl;
